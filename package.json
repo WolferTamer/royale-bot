@@ -1,19 +1,20 @@
 {
-  "name":"royale-bot",
+  "name": "royale-bot",
   "version": "1.0.0",
   "description": "A Discord Bot that allows users to run simulated battle royales.",
-  "main":"dist/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node ."
   },
-  "keywords":[],
-  "author":"ImWolfer",
-  "license":"ISC",
+  "keywords": [],
+  "author": "ImWolfer",
+  "license": "ISC",
   "dependencies": {
     "discord.js": "^14.19.3",
-    "dotenv": "^16.5.0"
+    "dotenv": "^16.5.0",
+    "mysql2": "^3.14.1"
   },
   "devDependencies": {
     "@types/node": "^22.15.21",
