@@ -1,11 +1,11 @@
 import {ChatInputCommandInteraction, EmbedBuilder, SlashCommandBuilder} from "discord.js";
 module.exports = {
     embed: new EmbedBuilder()
-    .setTitle('inventory')
-    .setDescription('All the items you have in your inventory.'),
+    .setTitle('test')
+    .setDescription('A test function'),
 	data: new SlashCommandBuilder()
-		.setName('inventory')
-		.setDescription('Look at all your items'),
+		.setName('test')
+		.setDescription('A test function'),
 	async execute(interaction: ChatInputCommandInteraction) {
         interaction.reply({content:"Test Message!"})
 	},
